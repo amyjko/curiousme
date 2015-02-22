@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<title>CuriousMe</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.16/require.min.js"></script>
+	<script type="text/javascript">
+		requirejs.config({
+			baseUrl: '/',
+			paths: {
+				'jquery':          ['//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min'],
+				'lodash':          ['//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min'],
+				'react':		   ['//cdnjs.cloudflare.com/ajax/libs/react/0.12.2/react']
+			}
+		});
+		require(["react", "views/App"], function(React, App) {
+
+			React.render(
+				React.createElement(
+					App,
+					{}
+				),
+				document.body
+			);
+			
+		});
+	</script>
+	<body></body>
+</html>
