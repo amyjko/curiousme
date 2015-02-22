@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git@github.com:andyjko/curiousme.git"
   },
+ "dependencies": {
+    "express": "~4.9.x"
+  },
   "author": "Andrew J. Ko",
   "bugs": {
     "url": "https://github.com/andyjko/curiousme/issues"
