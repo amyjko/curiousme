@@ -1,18 +1,27 @@
 {
-  "name": "curiousme",
-  "version": "0.0.0",
-  "description": "Q&A about natural and artificial systems",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:andyjko/curiousme.git"
-  },
- "dependencies": {
-    "express": "~4.9.x"
-  },
-  "author": "Andrew J. Ko",
-  "bugs": {
-    "url": "https://github.com/andyjko/curiousme/issues"
-  },
-  "homepage": "https://github.com/andyjko/curiousme"
+	"name": "curiousme",
+	"version": "0.0.0",
+	"description": "Q&A about natural and artificial systems",
+	"main": "index.js",
+	"repository": {
+	"type": "git",
+	"url": "git@github.com:andyjko/curiousme.git"
+	},
+	"dependencies": {
+		"express": "~4.9.x"
+	},
+	"engines": {
+	    "node": "6.11.1"
+	},
+  	"devDependencies": {
+		"jshint": "latest"	
+	},
+	"scripts": {
+		"lint": "jshint **.js"
+	},
+	"author": "Andrew J. Ko",
+	"bugs": {
+		"url": "https://github.com/andyjko/curiousme/issues"
+	},
+	"homepage": "https://github.com/andyjko/curiousme"
 }
